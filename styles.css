@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-image: url("./images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
+    background-image: url("./images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.output{
+    background-color: rgba(255, 255, 255, 0.725);
+    border-radius: 7px;
+    padding: 10px;
+}
+.all{
+    display: flex;
+}
+input {
+    background-color: #212121;
+    max-width: 190px;
+    height: 20px;
+    padding: 10px;
+     text-align: center; 
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px rgb(249, 255, 85); 
+    color: white;
+  }
+  
+ input:focus {
+    color: rgb(0, 255, 255);
+    background-color: #212121;
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    transition: .1s;
+    transition-property: box-shadow;
+    color: white;
+  }
+  textarea{
+    background-color: #212121;
+    max-width: 190px;
+    height: 20px;
+    padding: 10px;
+     text-align: center; 
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px rgb(249, 255, 85);
+    color: white;
+  }
+  textarea:focus{
+    background-color: #212121;
+    max-width: 190px;
+    height: 20px;
+    padding: 10px;
+     text-align: center; 
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px rgb(249, 255, 85);
+    color: white;
+  }
+button {
+    width: 9em;
+    height: 2em;
+    margin-top: 15px;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
